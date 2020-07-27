@@ -1,0 +1,14 @@
+*{
+    background: $mainBackground;
+    color: rgb(233, 182, 182);
+    box-sizing: border-box;
+}
+
+svg {
+    background: transparent;
+}
+
+.layout{
+    height: 100px;
+    width: 100px;
+}

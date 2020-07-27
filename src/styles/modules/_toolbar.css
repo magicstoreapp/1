@@ -1,0 +1,34 @@
+.toolbar{
+    display: flex;
+    height: $toolbar-height;
+    border: 1px solid $tabmenu-line-color;
+    background: $tabmenu-bg-color;
+    
+    .sec{
+        border: 1px solid $tabmenu-line-color;
+    }
+    .t-menu{
+        background: inherit;
+    }
+
+    .svg-icon{
+        background: transparent;
+        justify-items: center;
+        text-align: center;
+        
+        height: 50px;
+        width: 150px;
+        border: 1px solid black;
+        cursor: pointer;
+        svg{
+            display: block;
+            margin: auto;
+
+        }
+    }
+    .svg-icon:hover{
+        background: saddlebrown;
+    }
+
+   
+}
