@@ -169,10 +169,7 @@ const explorerReducer = (state = initialState, action) => {
                 
             };
         default:
-            return {
-                ...state,
-                selectedPath:[...state.selectedPath]
-            };
+            return state;
     }
 }
 

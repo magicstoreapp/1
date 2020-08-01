@@ -2,6 +2,8 @@
     background: $mainBackground;
     color: rgb(233, 182, 182);
     box-sizing: border-box;
+    
+    
 }
 
 svg {

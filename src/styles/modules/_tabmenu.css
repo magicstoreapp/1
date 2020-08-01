@@ -1,3 +1,27 @@
+
+.tabmenu{
+    display: flex;
+
+    div{
+        padding:  1px 8px;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+    div:hover{
+        background: grey;
+    }
+
+    .active{
+        background: khaki;
+    }
+
+}
+
+
+/*
+
+
 .main-tab {
     display: flex;
     height:24px;
@@ -33,3 +57,5 @@
         background:  green;
     }
 }
+
+*/
